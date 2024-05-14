@@ -6,7 +6,6 @@ SELECT FIRST_NAME,
 FROM USERS
 WHERE LAST_CONNECTION LIKE '221.___.___.___';
 
-
 -- Nombre, apellido y seguidores(followers) de todos a los que lo siguen más de 4600 personas
 
 SELECT FIRST_NAME,
@@ -14,10 +13,3 @@ SELECT FIRST_NAME,
 	FOLLOWERS
 FROM USERS
 WHERE FOLLOWERS > 4600;
-
-
-
-
-
-
-

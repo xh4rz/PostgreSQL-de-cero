@@ -5,7 +5,7 @@ SELECT * FROM users;
 
 -- 2. Ver el registro cuyo id sea igual a 10
 
-SELECT * FROM users WHERE id = 10;
+SELECT *   FROM users WHERE id = 10;
 
 
 -- 3. Quiero todos los registros que cuyo primer nombre sea Jim (engañosa)
